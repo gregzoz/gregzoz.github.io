@@ -1,5 +1,11 @@
+@font-face {
+  font-family: "FindersKeepers";
+  src: url("styles/fonts/FindersKeepers.ttf");
+}
+
 html, body {
   background-color: black
+  font-family: "FindersKeepers";
 }
 
 p {
