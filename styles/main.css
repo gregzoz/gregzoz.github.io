@@ -1,13 +1,56 @@
 @font-face {
-  font-family: "FindersKeepers";
-  src: url("styles/fonts/FindersKeepers.ttf");
+  font-family: FindersKeepers;
+  src: url(fonts/FindersKeepers.ttf);
 }
 
 html, body {
   background-color: black;
-  font-family: "FindersKeepers";
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 p {
   color: white;
+  font-family: FindersKeepers;
+  font-size: 45px;
+}
+
+h1 {
+  color: white;
+  font-family: FindersKeepers;
+  font-size: 45px;
+}
+
+.emb {
+  background-image: url(img/rotasanim.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+}
+
+.vertical {
+  height: 100%;
+}
+
+.links {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  top: -90px;
+}
+
+.home {
+  margin-right: 15px;
+}
+
+.projects {
+  margin-left: 15px;
+}
+
+.collection {
+ 
 }
